@@ -41,6 +41,18 @@
     .paper a {
       color: #add8e6; /* Light blue color for publication links */
     }
+
+    /* Remove the full viewport height */
+    .col-md-8 {
+      height: auto; /* Remove the height restriction */
+      margin-bottom: 30px; /* Optional: Adjust space between sections */
+    }
+
+    /* Optional: Add some spacing between publications and projects */
+    #publications, #Projects {
+      margin-bottom: 30px; /* Optional: Space between publications and projects */
+    }
+
   </style>
 </head>
 <body>
@@ -75,7 +87,7 @@
         <div class="row">
 
             <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
+            <div class="col-md-8">
                 
                 <!-- Main Image -->
                 <img class="img-responsive" src="Solid-Power-Stock-Teaser.jpg" alt=""><br>
@@ -85,7 +97,7 @@
 					This expertise enables me to work on developing models for tasks such as data-driven prediction and decision-making. Additionally, I have gained experience in energy management strategies for electric vehicles, a field that is becoming increasingly significant as EV adoption grows.</p>
 					<p>I hold an M.Sc. in Digital Electrical Engineering from Iran University of Science and Technology and am currently pursuing a Ph.D. at Carleton University as part of the Intelligent Robotic and Energy Systems Research Group (IRES).</p>
 					<p>My research centers on the application of machine learning techniques, including reinforcement learning and deep learning, to energy management systems in electric vehicles.
-					I work extensively with MATLAB and Python to implement these algorithms across various EMS applications.
+					I work extensively with MATLAB and Python to implement these algorithms across various EMS applications.</p>
                 </div>
             </div> 
 
@@ -113,8 +125,8 @@
             
             
             <!-- Publications -->
-            <div class="col-md-8" style="height: 100vh;">    
-                <h2 id="publications">Publications</h2>
+            <div class="col-md-8" id="publications">    
+                <h2>Publications</h2>
                 
                 <strong>Peer-reviewed</strong><br/>
                 <ul>
@@ -133,19 +145,19 @@
                 </ul>
             </div>
 
-		<div class="col-md-8" style="height: 10vh;">    
-                <h2 id="Projects">Projects</h2>
+		<div class="col-md-8" id="Projects">    
+                <h2>Projects</h2>
                 
                 <ul>
                 <li class="Project" words="add, your, keywords, here"><a>Energy management of Battery Electric Vehicles using MATD3 Algorithms</a> 
                 </ul>
 
 		<ul>
-                <li class="Project" words="add, your, keywords, here"><a >Predict controller of Battery ELectric Vehicles based on MAPPO </a>
+                <li class="Project" words="add, your, keywords, here"><a >Predict controller of Battery Electric Vehicles based on MAPPO </a>
                 </ul>
 
 		<ul>
-                <li class="Project" words="add, your, keywords, here"><a >Lithiom-ion Battery Cell Balancing using MAPPO algorithm/a>
+                <li class="Project" words="add, your, keywords, here"><a >Lithium-ion Battery Cell Balancing using MAPPO algorithm</a>
                 </ul>
 
 		<ul>
