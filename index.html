@@ -139,6 +139,12 @@
                 <h2>Publications</h2>
                 
                 <strong>Peer-reviewed</strong><br/>
+
+		<ul>
+                <li class="paper" words="add, your, keywords, here"><a href="https://ieeexplore.ieee.org/document/11007270">Centralized Multi-Agent SOC Control for Battery Health Using Proximal Policy Optimization in EVs</a> 
+			</p>Armin Lotfy, Mohamad Alzayed, Hicham Chaoui, Loic Boulon </p></li>
+                </ul>
+		    
                 <ul>
                 <li class="paper" words="add, your, keywords, here"><a href="https://ieeexplore.ieee.org/abstract/document/10598364">Enhancing Energy Management Strategy for Battery Electric Vehicles: Incorporating Cell Balancing and Multi-Agent Twin Delayed Deep Deterministic Policy Gradient Architecture</a> 
 			</p>Armin Lotfy, Hicham Chaoui, Mohsen Kandidayeni, Loic Boulon </p></li>
@@ -199,13 +205,18 @@
 		    energy utilization and extended battery longevity.</p> 
         </li>
         <li class="Project" words="add, your, keywords, here">
-            <a><strong>Lithium-ion Battery Cell Balancing Using MAPPO Algorithm</strong></a>
+            <a><strong>Centralized Multi-Agent SOC Control for Battery Health Using Proximal Policy Optimization in EVs</strong></a>
 	    <p style="text-align: justify;">
-		    In this project, a Multi-Agent Proximal Policy Optimization (MAPPO)-based battery controller was 
-		    developed and implemented. The controller is designed to meet the current demands of the Energy Management System (EMS) 
-		    while simultaneously optimizing key battery parameters, including State of Charge (SOC), State of Health (SOH), and temperature distribution. 
-		    To achieve this, a Centralized Training with Decentralized Execution (CTDE) framework was employed, enabling efficient training of the controller in a
-		    coordinated environment while allowing decentralized execution. The entire system was implemented and tested in MATLAB to ensure accuracy and robustness.</p> 
+		    This project proposes a model-free cooperative multi-agent control framework designed to
+		    regulate and balance the SOC of lithium-ion battery (LIB) cells in EVs during real-time driving operations. The proposed 
+		    method utilizes a series architecture comprising three LIB cells, each equipped with a buck-boost converter and a proportional-integral 
+		    (PI) controller, controlled by a reinforcement learning (RL) agent. The Proximal Policy Optimization (PPO) algorithm is 
+		    used as the RL agent in this multi-agent framework, where each PPO agent independently manages the SOC of a corresponding battery
+		    cell based on observed data. During the training phase, all PPO agents work collaboratively to balance the SOCs of the LIB cells,
+		    thereby preventing interruptions in EV performance. The effectiveness of the proposed approach is demonstrated by comparing its 
+		    performance with single-agent methods such as PPO, Soft Actor-Critic (SAC), and Twin Delayed Deep Deterministic Policy Gradient (TD3),
+		    as well as with other multi-agent methods. The results show that the proposed method performs better than the existing approaches, indicating
+		    its potential for superior performance.</p> 
         </li>
 	    
         <li class="Project" words="add, your, keywords, here">
